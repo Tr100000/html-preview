@@ -69,8 +69,8 @@ function updatePreview() {
 #editor,
 #preview {
   text-align: left;
-  width: calc(50vw - 16px);
-  height: calc(100vh - 16px);
+  width: calc(50vw - 22px);
+  height: calc(100vh - 22px);
   padding: 2px;
   margin: 8px;
   border: 1px solid black;
