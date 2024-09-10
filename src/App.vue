@@ -11,7 +11,7 @@ const domPreview = useTemplateRef("preview");
 
 const startValue = `
 <h1>HTML Realtime Preview</h1>
-<p>Edit HTML on the left, see results on the right!</p>
+<p>Edit HTML on the left, see changes on the right!</p>
 
 <button onclick="alert('I was clicked!')">Click Me!</button>
 
@@ -57,14 +57,7 @@ function updatePreview() {
 <template>
   <div id="container">
     <div id="editor"></div>
-    <iframe
-      id="preview"
-      ref="preview"
-      title="Preview"
-      allow="*"
-      allowfullscreen="true"
-      src="about:srcdoc"
-    ></iframe>
+    <iframe id="preview" ref="preview" title="Preview"></iframe>
   </div>
 </template>
 
